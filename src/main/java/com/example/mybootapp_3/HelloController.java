@@ -11,8 +11,10 @@ public class HelloController
     public String index() {
     return "Hello, Spring Boot!";
     }
+    
     @RequestMapping("/te/taro")
-    public String miyagi() {
+    public String taro() {
     return "Taro desu!";
     }
+
 }
